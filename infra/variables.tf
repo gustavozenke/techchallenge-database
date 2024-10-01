@@ -19,11 +19,11 @@ variable "aws_region" {
 }
 
 variable "atlas_dbuser" {
-  description = "tech"
+  default     = "tech"
 }
 
 variable "atlas_dbpassword" {
-  description = "qPJ7uBMFNUkRTuP5"
+  default     = "qPJ7uBMFNUkRTuP5"
 }
 
 variable "aws_account_id" {
