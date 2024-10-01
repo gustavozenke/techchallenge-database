@@ -19,7 +19,7 @@ data "mongodbatlas_roles_org_id" "org_id" {
 
 
 resource "mongodbatlas_project" "aws_atlas" {
-  name   = "Pos Tech"
+  name   = "Pos Tech - teste"
   org_id = data.mongodbatlas_roles_org_id.org_id.id
 }
 
