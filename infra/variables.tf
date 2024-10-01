@@ -1,11 +1,15 @@
 variable "public_key" {
   description = "The public API key for MongoDB Atlas"
-  default     = "zaybjirp"
+  default     = "afmwrpkf"
 }
 
 variable "private_key" {
   description = "The private API key for MongoDB Atlas"
-  default     = "2ad03c90-fd77-457b-ad87-29dc12a81366"
+  default     = "5f92cbc8-e181-45e3-b324-9fe87f6452cc"
+}
+
+variable "atlas_project_name" {
+  default = "PosTech"
 }
 
 variable "atlas_region" {
