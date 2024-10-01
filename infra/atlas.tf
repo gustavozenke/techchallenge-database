@@ -54,7 +54,7 @@ resource "mongodbatlas_database_user" "db-user" {
   project_id         = mongodbatlas_project.aws_atlas.id
   roles {
     role_name     = "readWriteAnyDatabase"
-    database_name = "TechChallenge"
+    database_name = "admin"
   }
   depends_on = [mongodbatlas_project.aws_atlas]
 }
